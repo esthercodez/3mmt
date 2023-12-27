@@ -1,0 +1,271 @@
+*{
+    margin-left: 1rem;
+    margin-right:1rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+header{
+    display: flex;
+}
+
+ header nav ul li{
+    display: inline;
+    float: right;
+    list-style-type: none;
+    
+    color:green;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:green;
+    
+}
+a:hover{
+    color:blue;
+}
+.login{
+    background-color: green;
+    color: white;
+    padding-left:16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.login:hover{
+    background-color: darkgreen;
+}
+.sddefault{
+    width:100%;
+}
+main{
+    margin-top: 2rem;
+    width:100%;
+    display: flex;
+}
+main .section_lead {
+    width: 45%;
+}
+p{
+    line-height: 30px;
+    text-align: left;
+    font-weight: lighter;
+}
+.title{
+    color:green;
+    font-weight: bold;
+    font-size: 50px;
+}
+.group{
+    width: 640px;
+    height: auto;
+    width: 55%;
+    transition: padding 0.15s;
+}
+.group:hover{
+    padding:40px;
+}
+article{
+    line-height: 50px;
+    background-color: green;
+    color:white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+article div p{
+    line-height: 30px;
+}
+h3{
+    width:40%;
+    font-size: 30px;
+}
+.phase{
+  display:flex;  
+}
+.girl{
+    width:50%;
+    height: 50%;
+}
+.purpose{
+    display: flex;
+}
+.purpose .second{
+    margin-top: 120px;
+}
+.woman{
+    width: 50%;
+    height: 50%;
+}
+.purpose .second .ministry{
+    text-decoration: none;
+    color:khaki;
+}
+.list{
+    background-color: lavender;
+    margin-top: 0;
+    padding: 20px;
+}
+section div ul{
+    column-count: 3;
+    column-gap: 20px;
+    column-width: 20px;
+}
+section div ul li{
+    line-height: 50px;
+    font-weight: lighter;
+}
+.third{
+    width: 50%;
+}
+.cards{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.whitegirl{
+    width:90%;
+    height:auto;
+}
+.fellow{
+    font-size: 30px;
+    color:green;
+}
+.text{
+    width:85%;
+}
+.one{
+    background-color: pink;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 650px;
+    line-height: 30px;
+    border-radius: 10px;
+    transition: bos-shadow 0.15s;
+}
+.one:hover{
+    box-shadow: 5px 5px 5px #777777;
+}
+.two{
+    background-color: lightgreen;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    align-items: flex-end;
+    height: 650px;
+    transition: box-shadow 0.15s;
+}
+.two:hover{
+    box-shadow: 5px 5px 5px #777777;
+}
+.apply{
+    color: white;
+    background-color: darkolivegreen;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.partnership{
+    margin-top: 20px;
+    width:90%;
+    background-color: darkgreen;
+    color:white;
+    padding:30px;
+}
+.partner{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.org{
+    text-align: center;
+    word-spacing: 15px;
+}
+.part{
+    margin-left: 485px;
+}
+.drop{
+    font-size: 50px;
+    font-weight: 600;
+    color:green;
+    text-align: center;
+}
+.partone{
+    background-color: green;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    width:95%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.accordion{
+    max-width: 100%;
+    max-height: 500px;
+    background-color: lavender;
+}
+.accordion_label .accordion_content{
+    padding:20px;
+}
+.accordion_label{
+    display:block;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    color:#333;
+    transition: all 0.15s transform 0.4s;
+}
+.accordion_label:hover{
+    background-color: #333;
+    color:lavender;
+}
+.accordion_label:focus{
+    border: 2px solid #333;
+}
+.accordion_label::after{
+    content: "^";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width:16px;
+    height: 8px;
+}
+.accordion_content{
+    background-color: #fff;
+    line-height: 1.5;
+    display:none;
+}
+.content{
+    display:none;
+}
+.content:checked ~ .accordion_content{
+    display: block;
+}
+.content:checked~ .accordion_label::after{
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
